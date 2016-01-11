@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'chirp#home'
+  root 'chirp/home'
 
   get 'chirp/help'
 
