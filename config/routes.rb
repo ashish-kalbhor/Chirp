@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get 'help'    => 'chirp#help'
   get 'about'   => 'chirp#about'
   get 'signup'  => 'users#new'
+  resources :users
 end
 
